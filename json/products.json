@@ -1,0 +1,74 @@
+[
+    {
+        "id" : "1",
+        "name" : "Puma",
+        "category" : "Tshirt",
+        "price" : "50",
+        "imgSrc" : "../assets/new-arrivals/img1.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "2",
+        "name" : "RayBan",
+        "category" : "SunGlasses",
+        "price" : "102",
+        "imgSrc" : "../assets/new-arrivals/img2.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "3",
+        "name" : "ColoShop",
+        "category" : "Exclusive Trouser",
+        "price" : "15",
+        "imgSrc" : "../assets/new-arrivals/img3.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "4",
+        "name" : "Levis",
+        "category" : "Bag",
+        "price" : "23",
+        "imgSrc" : "../assets/new-arrivals/img4.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "5",
+        "name" : "Khadi",
+        "category" : "Traditional cloth",
+        "price" : "50",
+        "imgSrc" : "../assets/new-arrivals/img5.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "6",
+        "name" : "Rado",
+        "category" : "Premium black watch",
+        "price" : "200",
+        "imgSrc" : "../assets/new-arrivals/img6.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "7",
+        "name" : "Avitas",
+        "category" : "Women Full body outfit",
+        "price" : "55",
+        "imgSrc" : "../assets/new-arrivals/img7.webp",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "8",
+        "name" : "WoodLand",
+        "category" : "Jacket",
+        "price" : "288",
+        "imgSrc" : "../assets/new-arrivals/img8.webp",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    }
+]

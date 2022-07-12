@@ -1,0 +1,149 @@
+[
+    {
+        "id" : "41",
+        "name" : "FirstCry",
+        "category" : "Dress",
+        "price" : "232",
+        "imgSrc" : "../assets/childrenPage/img1.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "42",
+        "name" : "Hotweels ( BMW)",
+        "category" : "Toy",
+        "price" : "55",
+        "imgSrc" : "../assets/childrenPage/img2.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "43",
+        "name" : "SunTop",
+        "category" : "Dress",
+        "price" : "152",
+        "imgSrc" : "../assets/childrenPage/img3.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "44",
+        "name" : "BeyBlade",
+        "category" : "Toy",
+        "price" : "235",
+        "imgSrc" : "../assets/childrenPage/img4.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+
+    {
+        "id" : "45",
+        "name" : "Nike",
+        "category" : "Jacket",
+        "price" : "132",
+        "imgSrc" : "../assets/childrenPage/img5.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "46",
+        "name" : "ColoShop",
+        "category" : "Dress",
+        "price" : "145",
+        "imgSrc" : "../assets/childrenPage/img6.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "47",
+        "name" : "AliBaba",
+        "category" : "Toy",
+        "price" : "135",
+        "imgSrc" : "../assets/childrenPage/img7.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+   
+    {
+        "id" : "48",
+        "name" : "Puma",
+        "category" : "Jacket",
+        "price" : "234",
+        "imgSrc" : "../assets/childrenPage/img8.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "49",
+        "name" : "ColoShop",
+        "category" : "Dress",
+        "price" : "265",
+        "imgSrc" : "../assets/childrenPage/img9.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "50",
+        "name" : "FirstCry",
+        "category" : "Toy",
+        "price" : "132",
+        "imgSrc" : "../assets/childrenPage/img10.jpeg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+
+    {
+        "id" : "51",
+        "name" : "Jhonson & Jhonson",
+        "category" : "ChildCare",
+        "price" : "92",
+        "imgSrc" : "../assets/childrenPage/img11.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "52",
+        "name" : "Panira",
+        "category" : "Jacket",
+        "price" : "532",
+        "imgSrc" : "../assets/childrenPage/img12.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "53",
+        "name" : "ColoShop Combo",
+        "category" : "ChildCare",
+        "price" : "234",
+        "imgSrc" : "../assets/childrenPage/img13.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "54",
+        "name" : "Nestle",
+        "category" : "ChildCare",
+        "price" : "551",
+        "imgSrc" : "../assets/childrenPage/img14.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "55",
+        "name" : "SoloIndian",
+        "category" : "ChildCare",
+        "price" : "635",
+        "imgSrc" : "../assets/childrenPage/img15.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "56",
+        "name" : "FirstHub",
+        "category" : "Jacket",
+        "price" : "444",
+        "imgSrc" : "../assets/childrenPage/img16.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    }
+]

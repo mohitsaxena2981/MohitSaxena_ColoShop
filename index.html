@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colo Shop</title>
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/ce07841c3e.js" crossorigin="anonymous"></script>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+  <!-- Box-icons -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+</head>
+
+<body onload="loading1()">
+  <div id="loadingani">
+    <img class="gif" src="./assets/cart.gif" alt="">
+    
+</div>
+  <section id="header">
+    <a class="navbar-brand" href=""><h2>COLO<span id="header-red">SHOP</span></h2></a>
+    <div>
+      <ul id="navbar">
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a href="./html/shop.html">Shop</a></li>
+        <li><a href="./html/blog.html">Blog</a></li>
+        <li><a href="./html/about.html">About</a></li>
+        <li><a href="./html/contact.html">Contact</a></li>
+        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+      </ul>
+    </div>
+    <div class = "cart">
+      <button type = "button" id = "cart-btn"><a href="./html/cart.html">
+        <i class = "fas fa-shopping-cart"></i>
+        <span id = "cart-count-info"></span></a>
+      </button>
+      
+      <div class = "cart-container">
+        <div class = "cart-list">
+
+        </div>
+
+        <div class = "cart-total">
+          <h3>Total: $</h3>
+          <span id = "cart-total-value"></span>
+        </div>
+      </div>
+    </div>
+    <div id="mobile">
+        <i id="bar" class="fa-solid fa-bars"></i>
+    </div>
+  </section>
+  <section id="hero">
+    <h4>SPRING / SUMMER COLLECTION 2022</h4>
+    <h1>Get up to 30% Off New Arrivals</h1>
+    <button class="white"><a href="./html/shop.html">SHOP NOW</a> </button>
+  </section>
+  <section id="sm-banner" class="section-p1">
+    <div class="banner-box">
+      <button class="white"><a href="./html/women.html"> Women's</a></button>
+    </div>
+    <div class="banner-box banner-box2">
+      <button class="white"><a href="./html/men.html"> Men's</a></button>
+    </div>
+    <div class="banner-box banner-box3">
+      <button class="white"><a href="./html/children.html"> Children's</a></button>
+    </div>
+    <div class="banner-box banner-box4">
+      <button class="white"><a href="./html/accessory.html"> Accessories</a></button>
+    </div>
+  </section>
+
+  <!-- products section  -->
+  <section class = "products">
+    <div class = "container">
+      <h2>New Arrivals</h2>
+      <div class = "product-list">
+        
+      </div>
+    </div>
+  </section>
+
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Product Details</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="border: none !important;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+  <section id="slider" class="pt-5">
+    <div class="container">
+      <h1 class="text-center"><b>Trending Blogs!!!</b></h1>
+        <div class="slider">
+                  <div class="owl-carousel">
+                      <div class="slider-card">
+                          <div class="d-flex justify-content-center align-items-center mb-4">
+                              <img src="./assets/blog/img1-home.jpg" alt="" >
+                          </div>
+                          <h5 class="mb-0 text-center"><b><i>Bright Bazaar  </i>  (Jan 14, 2022)</b></h5>
+                          <p class="text-center p-4">Bright Bazaar a subsdiary of ColoShop was created by Will Taylor, a journalist-turned-interior designer in 2009. Apart from wonderful home tours and design findings, Will shares other exciting details about his lifestyle, including his outfits, recipes, and life in New York City.</p>
+                      </div>
+                      <div class="slider-card">
+                          <div class="d-flex justify-content-center align-items-center mb-4">
+                              <img src="./assets/blog/img2-home.jpg" alt="">
+                          </div>
+                          <h5 class="mb-0 text-center"><b><i>My Fitness Pal</i> (August 24, 2021)</b></h5>
+                          <p class="text-center p-4">My Fitness Pal is an online platform that helps people lose weight. The site also offers a great set of mobile apps that allow users to keep track of their weight, exercise regularly, and more. The site also has a lively blog section where users can learn more about all things related to fitness.</p>
+                      </div>
+                      <div class="slider-card">
+                          <div class="d-flex justify-content-center align-items-center mb-4">
+                              <img src="./assets/blog/img3-home.jpg" alt="">
+                          </div>
+                          <h5 class="mb-0 text-center"><b><i>Nerd Fitness</i> (Apr 12, 2021)</b></h5>
+                          <p class="text-center p-4">This site targets “nerds, misfits and mutants,” and helps them to get in shape through home workouts and private coaching. Nerd Fitness has 25 team members led by Jim Bathurst, an award-winning personal trainer. The site also comes with an educational blog where you can learn more about working out.</p>
+                      </div>
+                      <div class="slider-card">
+                          <div class="d-flex justify-content-center align-items-center mb-4">
+                              <img src="./assets/blog/img4-home.jpg" alt="">
+                          </div>
+                          <h5 class="mb-0 text-center"><b><i>Love Sweat Fitness</i> (Jan 24, 2022)</b></h5>
+                          <p class="text-center p-4">Created in 2014 by Katie Dunlop, LSF focuses on providing fitness services to women. The site also features an app with fitness plans, workout plans, and more. There’s also a blog section where you can read more about fitness, nutrition, and participate in the community of LSF members..</p>
+                      </div>
+                      <div class="slider-card">
+                          <div class="d-flex justify-content-center align-items-center mb-4">
+                              <img src="./assets/blog/img6-home.jpg" alt="">
+                          </div>
+                          <h5 class="mb-0 text-center"><b><i>Apartment Theory</i> (Aug 29, 2021)</b></h5>
+                          <p class="text-center p-4">Apartment Therapy is a blog focusing on interior design. It was launched by Maxwell Ryan in 2001. Ryan is an interior designer who turned to blogging (using the moniker “the apartment therapist”). The blog has reached 20 million followers and has expanded into a full-scale media company.</p>
+                      </div>
+                  </div>
+              </div>
+    </div>
+  </section>
+
+  <section id="feature" class="section-p1">
+    <div class="fe-box">
+      <img src="./assets/features/f1.png" alt="">
+      <h6>Free Shipping</h6>
+    </div>
+    <div class="fe-box">
+      <img src="./assets/features/f2.png" alt="">
+      <h6>Online Order</h6>
+    </div>
+    <div class="fe-box">
+      <img src="./assets/features/f3.png" alt="">
+      <h6>Save Money</h6>
+    </div>
+    <div class="fe-box">
+      <img src="./assets/features/f4.png" alt="">
+      <h6>Promotions</h6>
+    </div>
+    <div class="fe-box">
+      <img src="./assets/features/f5.png" alt="">
+      <h6>Happy Sell</h6>
+    </div>
+    <div class="fe-box">
+      <img src="./assets/features/f6.png" alt="">
+      <h6>24*7 Support</h6>
+    </div>
+  </section>
+  
+  
+  <section id="newsletter" class="section-p1" class="section-m1">
+    <div class="newstext">
+        <h4>Newsletter</h4>
+        <p>Subscribe to our newsletter and get 20% off your first purchase</p>      
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email">
+        <button class="normal">SUBSCRIBE</button>
+    </div>
+  </section>
+
+
+  
+
+
+  <footer class="section-p1">
+    <div class="col">
+      <h2>COLO<span id="header-red">SHOP</span></h2>
+      <div class="follow"></div>
+      <h4>follow us</h4>
+      <div class="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+      <div class="copyright">
+        <p>Copyrights 2022</p>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+        <h4>Product</h4>
+        <a href="#">Download</a>
+        <a href="#">Pricing</a>
+        <a href="#">Locations</a>
+        <a href="#">Server</a>
+        <a href="#">Countries</a>
+        <a href="#">Blog</a>
+    </div>
+    <div class="col">
+        <h4>Category</h4>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Best Seller</a>
+        <a href="#">New Arrivals</a>
+        
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">My Account</a>
+        <a href="#">Discount</a>
+        <a href="#">Returns</a>
+        <a href="#">Order History</a>
+        <a href="#">Order Tracking</a>
+        
+    </div>
+
+    <div class="col install">
+        <h4>Contact Us</h4>
+        <p><strong>Address: </strong>123 Street Trafford, London, UK</p>
+        <p><strong>Mail: </strong>info@sitename.com</p>
+        <p><strong>Phone: </strong>+456 789 789 001</p>
+        
+    </div>
+
+   
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+  <script src="javaScript/owl.carousel.min.js"></script>
+  <script src="javaScript/header.js"></script>
+  <script src="javascript/loader.js"></script>
+
+
+
+
+</body>
+
+</html>

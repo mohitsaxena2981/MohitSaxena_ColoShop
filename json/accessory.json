@@ -1,0 +1,113 @@
+[
+    {
+        "id" : "26",
+        "name" : "RayBan Black",
+        "category" : "SunGlasses",
+        "price" : "102",
+        "imgSrc" : "../assets/new-arrivals/img2.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "33",
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "192",
+        "imgSrc" : "../assets/menPage/img8.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "35",
+        "name" : "Louis Philipee",
+        "category" : "SunGlasses",
+        "price" : "444",
+        "imgSrc" : "../assets/menPage/img10.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "39",
+        "name" : "RayBan",
+        "category" : "SunGlasses",
+        "price" : "651",
+        "imgSrc" : "../assets/menPage/img14.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "19",
+        "name" : "Fast Track",
+        "category" : "SunGlasses",
+        "price" : "444",
+        "imgSrc" : "../assets/womenPage/img10.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "11",
+        "name" : "RayBan (Sun Run)",
+        "category" : "SunGlasses",
+        "price" : "152",
+        "imgSrc" : "../assets/womenPage/img3.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "17",
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "265",
+        "imgSrc" : "../assets/womenPage/img8.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "23",
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "551",
+        "imgSrc" : "../assets/womenPage/img15.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "51",
+        "name" : "Jhonson & Jhonson",
+        "category" : "ChildCare",
+        "price" : "92",
+        "imgSrc" : "../assets/childrenPage/img11.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "53",
+        "name" : "ColoShop Combo",
+        "category" : "ChildCare",
+        "price" : "234",
+        "imgSrc" : "../assets/childrenPage/img13.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "54",
+        "name" : "Nestle",
+        "category" : "ChildCare",
+        "price" : "551",
+        "imgSrc" : "../assets/childrenPage/img14.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "55",
+        "name" : "SoloIndian",
+        "category" : "ChildCare",
+        "price" : "635",
+        "imgSrc" : "../assets/childrenPage/img15.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    }
+    
+
+
+]

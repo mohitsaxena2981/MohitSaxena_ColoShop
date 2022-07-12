@@ -1,0 +1,148 @@
+[
+    {
+        "id" : "9",
+        "name" : "Puma",
+        "category" : "Top",
+        "price" : "232",
+        "imgSrc" : "../assets/womenPage/img1.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "10",
+        "name" : "Levis",
+        "category" : "Bag",
+        "price" : "51",
+        "imgSrc" : "../assets/womenPage/img2.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "11",
+        "name" : "RayBan (Sun Run)",
+        "category" : "SunGlasses",
+        "price" : "152",
+        "imgSrc" : "../assets/womenPage/img3.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "12",
+        "name" : "WoodLand",
+        "category" : "Jacket",
+        "price" : "235",
+        "imgSrc" : "../assets/womenPage/img4.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+
+    {
+        "id" : "13",
+        "name" : "Nike",
+        "category" : "Bag",
+        "price" : "132",
+        "imgSrc" : "../assets/womenPage/img5.jpeg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "14",
+        "name" : "ColoShop",
+        "category" : "Top",
+        "price" : "145",
+        "imgSrc" : "../assets/womenPage/img5.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "15",
+        "name" : "Adidas",
+        "category" : "Bag",
+        "price" : "135",
+        "imgSrc" : "../assets/womenPage/img6.jpeg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+   
+    {
+        "id" : "16",
+        "name" : "Puma",
+        "category" : "Jacket",
+        "price" : "234",
+        "imgSrc" : "../assets/womenPage/img7.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "17",
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "265",
+        "imgSrc" : "../assets/womenPage/img8.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "18",
+        "name" : "MonteCarlo",
+        "category" : "Jacket",
+        "price" : "132",
+        "imgSrc" : "../assets/womenPage/img9.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "19",
+        "name" : "Fast Track",
+        "category" : "SunGlasses",
+        "price" : "444",
+        "imgSrc" : "../assets/womenPage/img10.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "20",
+        "name" : "ColoShop",
+        "category" : "Bag",
+        "price" : "92",
+        "imgSrc" : "../assets/womenPage/img11.jpeg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "21",
+        "name" : "Panira",
+        "category" : "Top",
+        "price" : "532",
+        "imgSrc" : "../assets/womenPage/img12.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "22",
+        "name" : "Manvayar",
+        "category" : "Jacket",
+        "price" : "234",
+        "imgSrc" : "../assets/womenPage/img13.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "23",
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "551",
+        "imgSrc" : "../assets/womenPage/img15.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "24",
+        "name" : "SoloIndian",
+        "category" : "Top",
+        "price" : "635",
+        "imgSrc" : "../assets/womenPage/img16.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    }
+]

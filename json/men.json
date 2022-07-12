@@ -1,0 +1,147 @@
+[
+    {
+        "id" : "25",
+        "name" : "Levis",
+        "category" : "Bag",
+        "price" : "50",
+        "imgSrc" : "../assets/menPage/img1.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "26",
+        "name" : "RayBan Black",
+        "category" : "SunGlasses",
+        "price" : "102",
+        "imgSrc" : "../assets/new-arrivals/img2.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "27",
+        "name" : "WoodLand",
+        "category" : "Jacket",
+        "price" : "152",
+        "imgSrc" : "../assets/menPage/img2.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+
+    {
+        "id" : "28",
+        "name" : "Nike",
+        "category" : "Bag",
+        "price" : "132",
+        "imgSrc" : "../assets/menPage/img3.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "29",
+        "name" : "Nike",
+        "category" : "Tshirt",
+        "price" : "145",
+        "imgSrc" : "../assets/menPage/img4.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "30",
+        "name" : "Adidas",
+        "category" : "Bag",
+        "price" : "129",
+        "imgSrc" : "../assets/menPage/img5.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "31",
+        "name" : "Puma",
+        "category" : "Tshirt",
+        "price" : "132",
+        "imgSrc" : "../assets/menPage/img6.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "32",
+        "name" : "Puma",
+        "category" : "Jacket",
+        "price" : "234",
+        "imgSrc" : "../assets/menPage/img7.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "33",
+        "name" : "ColoShop",
+        "category" : "SunGlasses",
+        "price" : "192",
+        "imgSrc" : "../assets/menPage/img8.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "34",
+        "name" : "Levis",
+        "category" : "Jacket",
+        "price" : "132",
+        "imgSrc" : "../assets/menPage/img9.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "35",
+        "name" : "Louis Philipee",
+        "category" : "SunGlasses",
+        "price" : "444",
+        "imgSrc" : "../assets/menPage/img10.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "36",
+        "name" : "ColoShop",
+        "category" : "Bag",
+        "price" : "92",
+        "imgSrc" : "../assets/menPage/img11.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "37",
+        "name" : "RockOn",
+        "category" : "Tshirt",
+        "price" : "532",
+        "imgSrc" : "../assets/menPage/img12.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "38",
+        "name" : "Raymonds",
+        "category" : "Jacket",
+        "price" : "234",
+        "imgSrc" : "../assets/menPage/img13.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "39",
+        "name" : "RayBan",
+        "category" : "SunGlasses",
+        "price" : "651",
+        "imgSrc" : "../assets/menPage/img14.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    },
+    {
+        "id" : "40",
+        "name" : "SoloIndian",
+        "category" : "Tshirt",
+        "price" : "65",
+        "imgSrc" : "../assets/menPage/img15.jpg",
+        "quant" : "1",
+        "details" : "A genuine and authentic product"
+    }
+]
