@@ -115,45 +115,12 @@ function loadJSON(){
  
 }
 
-function sorting(id){
-    let product1=file;
-    console.log(product1);
-    if(id.match('Relevance')){
-        window.location.reload();
-    }else {
-    if(id.match('Price => Low to High'))
-    {
-        product1.sort((a,b) => a.price-b.price);
-    }
-    else if(id.match('Price => High to Low')){
-        product1.sort((a,b) => b.price-a.price);
-    }
-    console.log(product1);
-    let html='';
-    product1.forEach(product => {
-        html += `
-            <div class = "product-item">
-                <div class = "product-img">
-                <img src = "${product.imgSrc}" data-toggle="modal" data-target="#exampleModal" onmouseover = 'loadModal(${product.id})' alt = "product image">
-                    <button type = "button" class = "add-to-cart-btn">
-                    Add To <i class = "fas fa-shopping-cart"></i>
-                    </button>
-                </div>
-                <div class = "product-content">
-                    <h3 class = "product-name">${product.name}</h3>
-                    <span class = "product-category">${product.category}</span>
-                    <p class = "product-price">$${product.price}</p>
-                </div>
-            </div>
-        `;
-    });
-    productList.innerHTML = html;
-    document.querySelector('.changer').textContent = "Sort By: "+ id;
-}
-}
+var name1=0;
+
 
 function filterByName(name){
-    let name1=file;
+    sorting('Relevence');
+    name1=file;
     if(name.match('All')){
         window.location.reload();
     }else {
@@ -165,6 +132,7 @@ function filterByName(name){
         html += `
             <div class = "product-item">
                 <div class = "product-img">
+                <a class ="p-id" style="display:none"> ${product.id}</a>
                 <img src = "${product.imgSrc}" data-toggle="modal" data-target="#exampleModal" onmouseover = 'loadModal(${product.id})' alt = "product image">
                     <button type = "button" class = "add-to-cart-btn">
                     Add To <i class = "fas fa-shopping-cart"></i>
@@ -182,6 +150,53 @@ function filterByName(name){
     document.querySelector('.changer2').textContent = "Filter : "+ name;
 }
 }
+
+function sorting(id){
+    if(name1==0){
+        product1=file;
+    }
+    else{
+        
+        product1=name1;
+    }
+    
+    console.log(product1);
+    if(id.match('Relevance')){
+        window.location.reload();
+    }else {
+    if(id.match('Price => Low to High'))
+    {
+        product1.sort((a,b) => a.price-b.price);
+    }
+    else if(id.match('Price => High to Low')){
+        product1.sort((a,b) => b.price-a.price);
+    }
+    console.log(product1);
+    let html='';
+    product1.forEach(product => {
+        html += `
+            <div class = "product-item">
+                <div class = "product-img">
+                <a class ="p-id" style="display:none"> ${product.id}</a>
+                <img src = "${product.imgSrc}" data-toggle="modal" data-target="#exampleModal" onmouseover = 'loadModal(${product.id})' alt = "product image">
+                    <button type = "button" class = "add-to-cart-btn">
+                    Add To <i class = "fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class = "product-content">
+                    <h3 class = "product-name">${product.name}</h3>
+                    <span class = "product-category">${product.category}</span>
+                    <p class = "product-price">$${product.price}</p>
+                </div>
+            </div>
+        `;
+    });
+    productList.innerHTML = html;
+    document.querySelector('.changer').textContent = "Sort By: "+ id;
+    
+}
+}
+
 
 // CART PAGE SEPARATE CODE
 

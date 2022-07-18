@@ -97,6 +97,7 @@ function loadJSON(){
                 <div class = "product-item">
                     <div class = "product-img">
                     <a class ="p-id" style="display:none"> ${product.id}</a>
+                    <p style="display:none">${product.Gender}</p>
                     <img src = "${product.imgSrc}"data-toggle="modal" data-target="#exampleModal" onmouseover = 'loadModal(${product.id})' alt = "product image">
                         <button type = "button" class = "add-to-cart-btn">
                         Add To <i class = "fas fa-shopping-cart"></i>
@@ -111,13 +112,56 @@ function loadJSON(){
             `;
         });
         productList.innerHTML = html;
-
+        // console.log(file);
     })
  
 }
 
+var name1=0;
+
+function filterByName(Gender){
+    sorting('Relevence');
+    name1=file;
+    if(Gender.match('All')){
+        window.location.reload();
+    }else {
+    name1=name1.filter(x=>x.Gender==Gender);
+    console.log(name1);
+    let html='';
+
+    name1.forEach(product => {
+        html += `
+            <div class = "product-item">
+                <div class = "product-img">
+                <a class ="p-id" style="display:none"> ${product.id}</a>
+   
+                <img src = "${product.imgSrc}" data-toggle="modal" data-target="#exampleModal" onmouseover = 'loadModal(${product.id})' alt = "product image">
+                    <button type = "button" class = "add-to-cart-btn">
+                    Add To <i class = "fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class = "product-content">
+                    <h3 class = "product-name">${product.name}</h3>
+                    <span class = "product-category">${product.category}</span>
+                    <p class = "product-price">$${product.price}</p>
+                </div>
+            </div>
+        `;
+    });
+    productList.innerHTML = html;
+    document.querySelector('.changer2').textContent = "Filter : "+ Gender;
+}
+}
+
+
 function sorting(id){
-    let product1=file;
+    if(name1==0){
+        product1=file;
+    }
+    else{
+        
+        product1=name1;
+    }
     console.log(product1);
     if(id.match('Relevance')){
         window.location.reload();
@@ -135,6 +179,7 @@ function sorting(id){
         html += `
             <div class = "product-item">
                 <div class = "product-img">
+                <a class ="p-id" style="display:none"> ${product.id}</a>
                 <img src = "${product.imgSrc}" data-toggle="modal" data-target="#exampleModal" onmouseover = 'loadModal(${product.id})' alt = "product image">
                     <button type = "button" class = "add-to-cart-btn">
                     Add To <i class = "fas fa-shopping-cart"></i>
@@ -153,36 +198,6 @@ function sorting(id){
 }
 }
 
-function filterByName(name){
-    let name1=file;
-    if(name.match('All')){
-        window.location.reload();
-    }else {
-    name1=name1.filter(x=>x.category==name);
-    console.log(name1);
-    let html='';
-
-    name1.forEach(product => {
-        html += `
-            <div class = "product-item">
-                <div class = "product-img">
-                <img src = "${product.imgSrc}" data-toggle="modal" data-target="#exampleModal" onmouseover = 'loadModal(${product.id})' alt = "product image">
-                    <button type = "button" class = "add-to-cart-btn">
-                    Add To <i class = "fas fa-shopping-cart"></i>
-                    </button>
-                </div>
-                <div class = "product-content">
-                    <h3 class = "product-name">${product.name}</h3>
-                    <span class = "product-category">${product.category}</span>
-                    <p class = "product-price">$${product.price}</p>
-                </div>
-            </div>
-        `;
-    });
-    productList.innerHTML = html;
-    document.querySelector('.changer2').textContent = "Filter : "+ name;
-}
-}
 
 // CART PAGE SEPARATE CODE
 
@@ -301,6 +316,7 @@ function change(type,id){
 function purchaseProduct(e){
     if(e.target.classList.contains('add-to-cart-btn')){
         let product = e.target.parentElement.parentElement;
+        console.log('Purchased');
         getProductInfo(product);
     }
 }

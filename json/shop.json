@@ -6,7 +6,8 @@
         "price" : "232",
         "imgSrc" : "../assets/womenPage/img1.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "10",
@@ -15,7 +16,8 @@
         "price" : "51",
         "imgSrc" : "../assets/womenPage/img2.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "11",
@@ -24,7 +26,8 @@
         "price" : "152",
         "imgSrc" : "../assets/womenPage/img3.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "12",
@@ -33,7 +36,8 @@
         "price" : "235",
         "imgSrc" : "../assets/womenPage/img4.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
 
     {
@@ -43,7 +47,8 @@
         "price" : "132",
         "imgSrc" : "../assets/womenPage/img5.jpeg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "14",
@@ -52,7 +57,8 @@
         "price" : "145",
         "imgSrc" : "../assets/womenPage/img5.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "15",
@@ -61,7 +67,8 @@
         "price" : "135",
         "imgSrc" : "../assets/womenPage/img6.jpeg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
    
     {
@@ -71,7 +78,8 @@
         "price" : "234",
         "imgSrc" : "../assets/womenPage/img7.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "17",
@@ -80,7 +88,8 @@
         "price" : "265",
         "imgSrc" : "../assets/womenPage/img8.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "18",
@@ -89,7 +98,8 @@
         "price" : "132",
         "imgSrc" : "../assets/womenPage/img9.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "19",
@@ -98,7 +108,8 @@
         "price" : "444",
         "imgSrc" : "../assets/womenPage/img10.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "20",
@@ -107,7 +118,8 @@
         "price" : "92",
         "imgSrc" : "../assets/womenPage/img11.jpeg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "21",
@@ -116,7 +128,8 @@
         "price" : "532",
         "imgSrc" : "../assets/womenPage/img12.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "22",
@@ -125,7 +138,8 @@
         "price" : "234",
         "imgSrc" : "../assets/womenPage/img13.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "23",
@@ -134,7 +148,8 @@
         "price" : "551",
         "imgSrc" : "../assets/womenPage/img15.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "24",
@@ -143,7 +158,8 @@
         "price" : "635",
         "imgSrc" : "../assets/womenPage/img16.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Women"
     },
     {
         "id" : "25",
@@ -152,7 +168,8 @@
         "price" : "50",
         "imgSrc" : "../assets/menPage/img1.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "26",
@@ -161,7 +178,8 @@
         "price" : "102",
         "imgSrc" : "../assets/new-arrivals/img2.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "27",
@@ -170,7 +188,8 @@
         "price" : "152",
         "imgSrc" : "../assets/menPage/img2.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
 
     {
@@ -180,7 +199,8 @@
         "price" : "132",
         "imgSrc" : "../assets/menPage/img3.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "29",
@@ -189,7 +209,8 @@
         "price" : "145",
         "imgSrc" : "../assets/menPage/img4.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "30",
@@ -198,7 +219,8 @@
         "price" : "129",
         "imgSrc" : "../assets/menPage/img5.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "31",
@@ -207,7 +229,8 @@
         "price" : "132",
         "imgSrc" : "../assets/menPage/img6.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "32",
@@ -216,7 +239,8 @@
         "price" : "234",
         "imgSrc" : "../assets/menPage/img7.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "33",
@@ -224,7 +248,9 @@
         "category" : "SunGlasses",
         "price" : "192",
         "imgSrc" : "../assets/menPage/img8.jpg",
-        "quant" : "1"
+        "quant" : "1",
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "34",
@@ -233,7 +259,8 @@
         "price" : "132",
         "imgSrc" : "../assets/menPage/img9.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "35",
@@ -242,7 +269,8 @@
         "price" : "444",
         "imgSrc" : "../assets/menPage/img10.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "36",
@@ -251,7 +279,8 @@
         "price" : "92",
         "imgSrc" : "../assets/menPage/img11.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "37",
@@ -260,7 +289,8 @@
         "price" : "532",
         "imgSrc" : "../assets/menPage/img12.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "38",
@@ -269,7 +299,8 @@
         "price" : "234",
         "imgSrc" : "../assets/menPage/img13.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "39",
@@ -278,7 +309,8 @@
         "price" : "651",
         "imgSrc" : "../assets/menPage/img14.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "40",
@@ -287,7 +319,8 @@
         "price" : "65",
         "imgSrc" : "../assets/menPage/img15.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Men"
     },
     {
         "id" : "41",
@@ -296,7 +329,8 @@
         "price" : "232",
         "imgSrc" : "../assets/childrenPage/img1.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
     {
         "id" : "42",
@@ -305,7 +339,8 @@
         "price" : "55",
         "imgSrc" : "../assets/childrenPage/img2.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
     {
         "id" : "43",
@@ -314,7 +349,8 @@
         "price" : "152",
         "imgSrc" : "../assets/childrenPage/img3.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
     {
         "id" : "44",
@@ -323,7 +359,8 @@
         "price" : "235",
         "imgSrc" : "../assets/childrenPage/img4.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
 
     {
@@ -333,7 +370,8 @@
         "price" : "132",
         "imgSrc" : "../assets/childrenPage/img5.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
     {
         "id" : "46",
@@ -342,7 +380,8 @@
         "price" : "145",
         "imgSrc" : "../assets/childrenPage/img6.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
     {
         "id" : "47",
@@ -351,7 +390,8 @@
         "price" : "135",
         "imgSrc" : "../assets/childrenPage/img7.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
    
     {
@@ -361,7 +401,8 @@
         "price" : "234",
         "imgSrc" : "../assets/childrenPage/img8.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
     {
         "id" : "49",
@@ -370,7 +411,8 @@
         "price" : "265",
         "imgSrc" : "../assets/childrenPage/img9.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
     {
         "id" : "50",
@@ -379,7 +421,8 @@
         "price" : "132",
         "imgSrc" : "../assets/childrenPage/img10.jpeg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
 
     {
@@ -389,7 +432,8 @@
         "price" : "92",
         "imgSrc" : "../assets/childrenPage/img11.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
     {
         "id" : "52",
@@ -398,7 +442,8 @@
         "price" : "532",
         "imgSrc" : "../assets/childrenPage/img12.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
     {
         "id" : "53",
@@ -407,7 +452,8 @@
         "price" : "234",
         "imgSrc" : "../assets/childrenPage/img13.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
     {
         "id" : "54",
@@ -416,7 +462,8 @@
         "price" : "551",
         "imgSrc" : "../assets/childrenPage/img14.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
     {
         "id" : "55",
@@ -425,7 +472,8 @@
         "price" : "635",
         "imgSrc" : "../assets/childrenPage/img15.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     },
     {
         "id" : "56",
@@ -434,6 +482,7 @@
         "price" : "444",
         "imgSrc" : "../assets/childrenPage/img16.jpg",
         "quant" : "1",
-        "details" : "A genuine and authentic product"
+        "details" : "A genuine and authentic product",
+        "Gender" : "Children"
     }
 ]
