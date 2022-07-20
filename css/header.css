@@ -1747,3 +1747,29 @@ transition: 0.2s;
 }
 
 
+
+
+.modale{
+  height: 300px;
+}
+
+.modaleContent{
+  padding: 0;
+  
+}
+
+.modaleContent .product-name{
+  padding-top: 20px;
+}
+
+.modaleContent h3{
+  font-size: 20px;
+}
+.modaleContent p{
+  font-size: 14px;
+}
+
+.modaleContent .product-price{
+  color: black;
+  font-size: 20px;
+}

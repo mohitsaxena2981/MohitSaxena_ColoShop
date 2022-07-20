@@ -59,18 +59,18 @@ function loadModal(id) {
         data.forEach(product => {
             if(product.id==id){
             output += `<div class = "product-item">
-        <div class = "product-img">
+        <div class = "product-img modale">
         <a class ="p-id" style="display:none"> ${product.id}</a>
             <img src = "${product.imgSrc}"data-toggle="modal" data-target="#exampleModal" alt = "product image">
 
         
         </div>
-        <div class = "product-content">
+        <div class = "product-content modaleContent">
             <h3 class = "product-name">${product.name}</h3>
             <span class = "product-category">${product.category}</span>
             <h3>COLO<span id="header-red">SHOP</span> ASSURED</h3>
             <p><b>${product.details}</B></p>
-            <p class = "product-price">$${product.price}</p>
+            <p class = "product-price"><b>$${product.price}</b></p>
         </div>
     </div>`
     document.querySelector('.modal-body').innerHTML = output;
