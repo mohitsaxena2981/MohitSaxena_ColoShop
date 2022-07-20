@@ -261,7 +261,7 @@ button{
 
 /* products */
 .products{
-  padding: 6rem 0;
+  padding: 6rem 5px 5px 0;
 }
 .products h2{
   text-align: center;
@@ -564,7 +564,7 @@ body {
   position: relative;
 }
 .slider .owl-item.active.center .slider-card {
-  transform: scale(1.15);
+  transform: scale(1.01);
   opacity: 1;
   background: #ff9966; /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966); /* Chrome 10-25, Safari 5.1-6 */
@@ -574,7 +574,7 @@ body {
 .slider-card {
   background: #fff;
   padding: 0px 0px;
-  margin: 50px 15px 90px 15px;
+  margin: 20px 15px 5px 15px;
   border-radius: 5px;
   box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
   transform: scale(0.9);
@@ -879,7 +879,7 @@ body {
 /* Cart Icon */
 
 .products{
-  padding: 6rem 0;
+  padding: 5rem 5px 5px 0;
 
 }
 .products h2{
@@ -921,7 +921,7 @@ body {
   opacity: 0.8;
 }
 .product-content{
-  padding: 6rem 0;
+  padding: 2rem 5px 5px 0;
   text-align: center;
 }
 
