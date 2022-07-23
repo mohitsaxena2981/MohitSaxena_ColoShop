@@ -93,7 +93,7 @@ function loadJSON(){
                 <div class = "product-item">
                     <div class = "product-img">
                     <a class ="p-id" style="display:none"> ${product.id}</a>
-                        <img src = "${product.imgSrc}"data-toggle="modal" data-target="#exampleModal" onmouseover = 'loadModal(${product.id})' alt = "product image">
+                    <img src = "${product.imgSrc}" data-toggle="modal" data-target="#exampleModal" onmouseover = 'loadModal(${product.id})' alt = "product image">
                         <button type = "button" class = "add-to-cart-btn">
                         Add To <i class = "fas fa-shopping-cart"></i>
                         </button>
@@ -109,6 +109,44 @@ function loadJSON(){
         productList.innerHTML = html;
     })
  
+}
+
+
+function filterByName(Gender){
+    let name1=file;
+    if(Gender.match('All')){
+      
+        loadJSON();
+        // console.log("HIIII");
+    }else {
+    name1=name1.filter(x=>x.Gender==Gender);
+    console.log(name1);
+    let html='';
+
+    name1.forEach(product => {
+        html += `
+            <div class = "product-item">
+                <div class = "product-img">
+                <img src = "${product.imgSrc}" data-toggle="modal" data-target="#exampleModal" onmouseover = 'loadModal(${product.id})' alt = "product image">
+                    <button type = "button" class = "add-to-cart-btn">
+                    Add To <i class = "fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class = "product-content">
+                    <h3 class = "product-name">${product.name}</h3>
+                    <span class = "product-category">${product.category}</span>
+                    <p class = "product-price">$${product.price}</p>
+                </div>
+            </div>
+        `;
+        
+        document.querySelector('.product-list').innerHTML = html;
+        
+    });
+    
+    // document.querySelector('.filter-list').innerHTML = html;
+    
+}
 }
 
 // CART PAGE SEPARATE CODE
