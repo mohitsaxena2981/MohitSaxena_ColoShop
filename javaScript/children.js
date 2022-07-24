@@ -219,7 +219,7 @@ function loadCartPage(){
                     <p class = "Quantity" id ="${product.id}">${product.quant}</p>
                     <div class="subtract"><a onclick = "change('sub',${product.id})">-</a></div>
                     <p class = "productprice">${product.price}</p>
-                    <a class="removeCartitem" onclick = "deletecartproduct(${product.id});"href="#">Remove From Cart</a>
+                    <a class="removeCartitem" onclick = "deletecartproduct(${product.id});"href="#">Remove</a>
                 </div>
             </div>
         `;
