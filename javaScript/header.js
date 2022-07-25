@@ -188,22 +188,44 @@ function loadCartPage(){
 
     <h3 id ="totalAmount" >Total: $ ${total.toString()}</h3>
     <span id="cart-total-value"></span>
-    <span id="purchase-span1"><button id="continueShopping-btn" onclick = "window.location.href  = '../index.html'">Continue Shopping</button></span>
-    <span id="purchase-span"><button id="purchase-btn" onclick = "Alert('Your order has been placed.')">Purchase Order</button></span>`;
-  console.log(html);
-  
+    <div id="purchase-span1"><button id="continueShopping-btn" onclick = "window.location.href  = '../index.html'">Continue Shopping</button></div>
+    <div id="purchase-span">
+        <button type="submit" class="btn2" onclick="openPopup()">Submit</button>
+        <div class="popup" id="popup">
+        <img src="../assets/404-tick.png">
+        <h2>Thank You!</h2>
+        <p>Your order is successfully placed. Do you want to Proceed</p>
+        <button type="button" onclick="closePopup()">OK</button>
+        <button type="button" onclick="closePopup1()" id="Cancel">Cancel</button>
+    
+    </button></div>`; 
   document.querySelector('#cart-total').innerHTML = html;
   updateCartInfo();
 
     
 }
-function Alert(message){
 
-    if(confirm(alert(message))){
-        localStorage.clear();
-        window.location.href  = "../index.html";
-    }
+function openPopup(){
+    window.location.href  = "#cart-heading1";
+    popup.classList.add("open-popup");
+    $("body").css("overflow", "hidden");
+
 }
+
+function closePopup(){
+    popup.classList.remove("open-popup");
+    localStorage.clear();
+    window.location.href  = "../index.html";
+
+}
+
+function closePopup1(){
+    popup.classList.remove("open-popup");
+    $("body").css("overflow", "auto");
+
+
+}
+
 
 function deletecartproduct(id){
     let products = getProductFromStorage();

@@ -103,7 +103,7 @@ button.normal{
 
 #navbar li a{
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
   color: #000;
   transition: 0.3s ease;
@@ -1051,13 +1051,13 @@ body {
   align-items: flex-start;
 }
 
-#purchase-span #purchase-btn{
+#purchase-span .btn2{
   text-align: center;
   padding: 5px 5px;
   background-color: var(--fire-bush);
 }
 
-#purchase-btn:hover{
+.btn2:hover{
   color:#eb167d;
   transition: 0.2s;
 }
@@ -1242,7 +1242,54 @@ body {
   padding-right: 30px;
 }
 
+/* Pop Up */
+.popup{
+  width: 400px;
+  background: #f1f3fc;
+  border-radius: 6px;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: translated(-50%, -50%);
+  text-align: center;
+  padding: 0px 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.4s;
+}
 
+.open-popup{
+  visibility: visible;
+}
+
+.popup img{
+  width: 100px;
+  margin-top: -40px;
+  margin-left: 110px;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+
+.popup button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: var(--fire-bush);
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
 
 
 /* Footer */
@@ -1308,8 +1355,8 @@ footer .follow i{
     position: fixed;
     top: 0;
     right: -300px;
-    height: 100vh;
-    width: 300px;
+    height: 50vh;
+    width: 180px;
     background-color: #E3E6F3;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.5);
     padding: 80px 0 0 10px;
@@ -1360,6 +1407,37 @@ footer .follow i{
   .btns button:first-child{
       margin-right: 0.4rem;
   }
+}
+
+@media screen and (max-width: 1000px){
+  .popup{
+    width: 350px;
+    background: #f1f3fc;
+    border-radius: 6px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    transform: translated(-50%, -50%);
+    text-align: center;
+    padding: 0px 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s;
+  }
+  
+  .open-popup{
+    visibility: visible;
+  }
+  
+  .popup img{
+    width: 60px;
+    margin-top: -30px;
+    margin-left: 110px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  
 }
 
 @media screen and (min-width: 680px){
@@ -1768,7 +1846,7 @@ footer .follow i{
   align-items: flex-start;
 }
 
-#purchase-span #purchase-btn{
+#purchase-span .btn2{
   text-align: center;
   padding: 2px 2px;
 }
@@ -1802,6 +1880,37 @@ transition: 0.2s;
   justify-content: center;
   align-items: center;
 }
+
+
+/* Pop Up */
+
+.popup{
+  width: 250px;
+  background: #f1f3fc;
+  border-radius: 6px;
+  position: absolute;
+  top: 10%;
+  left: 18%;
+  transform: translated(-50%, -50%);
+  text-align: center;
+  padding: 0px 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.4s;
+}
+
+.open-popup{
+  visibility: visible;
+}
+
+.popup img{
+  width: 60px;
+  margin-top: -30px;
+  margin-left: 60px;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 
 
 }
@@ -1861,6 +1970,11 @@ transition: 0.2s;
   color: black;
   font-size: 20px;
 }
+
+
+
+
+
 
 
 
