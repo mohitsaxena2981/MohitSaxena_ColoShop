@@ -186,11 +186,11 @@ function loadCartPage(){
     html = "";
     html += `
 
-    <h3 id ="totalAmount" >Total: ₹ ${total.toString()}</h3>
+    <h3 id ="totalAmount" >Total: ₹${total.toString()}</h3>
     <span id="cart-total-value"></span>
     <div id="purchase-span1"><button id="continueShopping-btn" onclick = "window.location.href  = '../index.html'">Continue Shopping</button></div>
     <div id="purchase-span">
-        <button type="submit" class="btn2" onclick="openPopup()">Submit</button>
+        <button type="submit" class="btn2" onclick="openPopup()">Purchase Order</button>
         <div class="popup" id="popup">
         <img src="../assets/404-tick.png">
         <h2>Thank You!</h2>
