@@ -51,7 +51,6 @@ function updateCartInfo(){
 
 var file;
 function loadModal(id) {
-    console.log('reaached');
     let output = "";
     fetch('../json/women.json')
     .then(response => response.json())
@@ -122,7 +121,6 @@ function filterByName(name){
         window.location.reload();
     }else {
     name1=name1.filter(x=>x.category==name);
-    console.log(name1);
     let html='';
 
     name1.forEach(product => {
@@ -157,7 +155,6 @@ function sorting(id){
         product1=name1;
     }
     
-    console.log(product1);
     if(id.match('Relevance')){
         window.location.reload();
     }else {
@@ -168,7 +165,7 @@ function sorting(id){
     else if(id.match('Price => High to Low')){
         product1.sort((a,b) => b.price-a.price);
     }
-    console.log(product1);
+
     let html='';
     product1.forEach(product => {
         html += `
@@ -212,9 +209,7 @@ function getProductInfo(product){
     if(id_arr!=null){
     for(i = 0; i< id_arr.length;i++){
         if(id_arr[i].id == id_p){
-            console.log('Match');
             id_arr[i].quant += 1;
-            console.log(id_arr[i].quant);
             localStorage.setItem('products',JSON.stringify(id_arr));
             break;
         }
@@ -270,7 +265,6 @@ function getProductFromStorage(){
 
 // load carts product
 function loadCart(){
-    console.log("I am here");
     let products = getProductFromStorage();
     if(products.length < 1){
         cartItemID = 1; // if there is no any product in the local storage

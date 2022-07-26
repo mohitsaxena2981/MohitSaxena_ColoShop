@@ -52,7 +52,7 @@
     {
         "id" : "6",
         "name" : "Rado",
-        "category" : "Premium black watch",
+        "category" : "Premium watch",
         "price" : "200",
         "imgSrc" : "../assets/new-arrivals/img6.jpg",
         "quant" : "1",
@@ -62,7 +62,7 @@
     {
         "id" : "7",
         "name" : "Avitas",
-        "category" : "Women Full body outfit",
+        "category" : "Women outfit",
         "price" : "55",
         "imgSrc" : "../assets/new-arrivals/img7.jpg",
         "quant" : "1",

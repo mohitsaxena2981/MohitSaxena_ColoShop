@@ -51,7 +51,6 @@ function updateCartInfo(){
 
 var file;
 function loadModal(id) {
-    console.log('reaached');
     let output = "";
     fetch('../json/products.json')
     .then(response => response.json())
@@ -117,10 +116,8 @@ function filterByName(Gender){
     if(Gender.match('All')){
       
         loadJSON();
-        // console.log("HIIII");
     }else {
     name1=name1.filter(x=>x.Gender==Gender);
-    console.log(name1);
     let html='';
 
     name1.forEach(product => {
@@ -173,7 +170,6 @@ function loadCartPage(){
                 </div>
             </div>
         `;
-        console.log(product.price);
         totalCost += parseInt(product.price.substr(1))*(product.quant);
         localStorage.setItem('totalCost',totalCost);
     });
@@ -241,7 +237,7 @@ function deletecartproduct(id){
 
 function change(type,id){
     let file = JSON.parse(localStorage.getItem('products'));
-    console.log(id);
+
     if(type.match('add')){
         let str = " " + id;
         let a = document.getElementById(str).innerHTML;
@@ -251,7 +247,6 @@ function change(type,id){
             if(file[i].id == id){
                 let price = document.getElementById('totalAmount').textContent;
                 price = price.match(/(\d+)/);
-                console.log(price);
                 price = parseInt(price) + parseInt(file[i].price.substring(1));
                 document.getElementById('totalAmount').textContent = "Total: ₹"+ price;
                 file[i].quant +=1;
@@ -272,7 +267,6 @@ function change(type,id){
                 let price = document.getElementById('totalAmount').textContent;
                 
                 price = price.match(/(\d+)/);
-                console.log(price);
                 price = parseInt(price) - parseInt(file[i].price.substring(1));
                 document.getElementById('totalAmount').textContent = "Total: ₹"+ price;
                 file[i].quant -=1;
@@ -301,9 +295,7 @@ function getProductInfo(product){
     if(id_arr!=null){
     for(i = 0; i< id_arr.length;i++){
         if(id_arr[i].id == id_p){
-            console.log('Match');
             id_arr[i].quant += 1;
-            console.log(id_arr[i].quant);
             localStorage.setItem('products',JSON.stringify(id_arr));
             break;
         }
@@ -359,7 +351,6 @@ function getProductFromStorage(){
 
 // load carts product
 function loadCart(){
-    console.log("I am here");
     let products = getProductFromStorage();
     if(products.length < 1){
         cartItemID = 1; // if there is no any product in the local storage
