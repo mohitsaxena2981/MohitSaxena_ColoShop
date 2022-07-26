@@ -71,7 +71,7 @@ function loadModal(id) {
             <span class = "product-category">${product.category}</span>
             <h3>COLO<span id="header-red">SHOP</span> ASSURED</h3>
             <p><b>${product.details}</B></p>
-            <p class = "product-price"><b>$${product.price}</b></p>
+            <p class = "product-price"><b>₹${product.price}</b></p>
         </div>
     </div>`
     document.querySelector('.modal-body').innerHTML = output;
@@ -105,7 +105,7 @@ function loadJSON(){
                     <div class = "product-content">
                         <h3 class = "product-name">${product.name}</h3>
                         <span class = "product-category">${product.category}</span>
-                        <p class = "product-price">$${product.price}</p>
+                        <p class = "product-price">₹${product.price}</p>
                     </div>
                 </div>
             `;
@@ -141,7 +141,7 @@ function filterByName(name){
                 <div class = "product-content">
                     <h3 class = "product-name">${product.name}</h3>
                     <span class = "product-category">${product.category}</span>
-                    <p class = "product-price">$${product.price}</p>
+                    <p class = "product-price">₹${product.price}</p>
                 </div>
             </div>
         `;
@@ -186,7 +186,7 @@ function sorting(id){
                 <div class = "product-content">
                     <h3 class = "product-name">${product.name}</h3>
                     <span class = "product-category">${product.category}</span>
-                    <p class = "product-price">$${product.price}</p>
+                    <p class = "product-price">₹${product.price}</p>
                 </div>
             </div>
         `;

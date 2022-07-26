@@ -70,7 +70,7 @@ function loadModal(id) {
             <span class = "product-category">${product.category}</span>
             <h3>COLO<span id="header-red">SHOP</span> ASSURED</h3>
             <p><b>${product.details}</B></p>
-            <p class = "product-price"><b>$${product.price}</b></p>
+            <p class = "product-price"><b>₹${product.price}</b></p>
         </div>
     </div>`
     document.querySelector('.modal-body').innerHTML = output;
@@ -101,7 +101,7 @@ function loadJSON(){
                     <div class = "product-content">
                         <h3 class = "product-name">${product.name}</h3>
                         <span class = "product-category">${product.category}</span>
-                        <p class = "product-price">$${product.price}</p>
+                        <p class = "product-price">₹${product.price}</p>
                     </div>
                 </div>
             `;
@@ -135,7 +135,7 @@ function filterByName(Gender){
                 <div class = "product-content">
                     <h3 class = "product-name">${product.name}</h3>
                     <span class = "product-category">${product.category}</span>
-                    <p class = "product-price">$${product.price}</p>
+                    <p class = "product-price">₹${product.price}</p>
                 </div>
             </div>
         `;
@@ -186,7 +186,7 @@ function loadCartPage(){
     html = "";
     html += `
 
-    <h3 id ="totalAmount" >Total: $ ${total.toString()}</h3>
+    <h3 id ="totalAmount" >Total: ₹ ${total.toString()}</h3>
     <span id="cart-total-value"></span>
     <div id="purchase-span1"><button id="continueShopping-btn" onclick = "window.location.href  = '../index.html'">Continue Shopping</button></div>
     <div id="purchase-span">
@@ -253,7 +253,7 @@ function change(type,id){
                 price = price.match(/(\d+)/);
                 console.log(price);
                 price = parseInt(price) + parseInt(file[i].price.substring(1));
-                document.getElementById('totalAmount').textContent = "Total: $"+ price;
+                document.getElementById('totalAmount').textContent = "Total: ₹"+ price;
                 file[i].quant +=1;
                 localStorage.setItem('products',JSON.stringify(file));
                 break;
@@ -274,7 +274,7 @@ function change(type,id){
                 price = price.match(/(\d+)/);
                 console.log(price);
                 price = parseInt(price) - parseInt(file[i].price.substring(1));
-                document.getElementById('totalAmount').textContent = "Total: $"+ price;
+                document.getElementById('totalAmount').textContent = "Total: ₹"+ price;
                 file[i].quant -=1;
                 localStorage.setItem('products',JSON.stringify(file));
                 break;
